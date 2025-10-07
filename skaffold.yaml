@@ -24,3 +24,11 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
+    - image: samvelantanyan/ticketing-tickets
+      context: ./auth
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: './src/**/*.ts'
+            dest: .
