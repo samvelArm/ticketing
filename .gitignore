@@ -3,3 +3,4 @@ infra
 client
 common
 tickets
+nats-test
