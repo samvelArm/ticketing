@@ -25,7 +25,7 @@ build:
           - src: '**/*.js'
             dest: .
     - image: samvelantanyan/ticketing-tickets
-      context: ./auth
+      context: ./tickets
       docker:
         dockerfile: Dockerfile
       sync:
