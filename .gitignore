@@ -3,6 +3,6 @@ infra
 client
 common
 tickets
-nats-test
 orders
 expiration
+payments
